@@ -1,0 +1,26 @@
+@import "bootstrap";
+
+.form {
+  padding: 50px;
+  width: 600px;
+  margin: 0 auto;
+
+  .btn-group {
+    display: flex;
+  }
+
+  input {
+    width: 75%;
+  }
+
+  button {
+    width: 25%;
+  }
+}
+
+table {
+  td:last-child {
+    width: 50px;
+    text-align: center;
+  }
+}
