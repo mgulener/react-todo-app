@@ -13,8 +13,6 @@ function TodoApp() {
     setTodos((todos) => todos.concat({ text: input, id: id }) );
     setInput('');
     setId(id + 1);
-    console.log(id);
-    console.log(todos);
   }
 
   const removeTodo = (id) => setTodos((todos) => todos.filter((todo) => todo.id !== id))
